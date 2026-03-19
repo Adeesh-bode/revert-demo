@@ -7,7 +7,8 @@ public class PaymentService {
         int retry = 3;
         while (retry-- > 0) {
             try {
-                return "Payment Processing v1 - SUCCESS";
+                // Refactored logic
+                return "Payment Processing v2 - COMPLETED";
             } catch (Exception e) {
                 // retry
             }
