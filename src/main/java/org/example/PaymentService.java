@@ -8,6 +8,7 @@ public class PaymentService {
         while (retry-- > 0) {
             try {
                 // Refactored logic
+                System.out.println("Payment Processing Logs");
                 return "Payment Processing v2 - HOTFIX DONE";
             } catch (Exception e) {
                 // retry
